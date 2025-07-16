@@ -17,6 +17,4 @@ chromedriver.exe
 *.exe
 .DS_Store
 
-# 🔹 Ignore Power BI or presentation files
-*.pbix
-*.pptx
+
