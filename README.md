@@ -145,6 +145,18 @@ This project showcases end-to-end automation of:
 - Visual storytelling with Python
 
 - It can help data analysts, sports analysts, and enthusiasts derive powerful cricket insights using code.
+---
+
+## 📁 Project Deliverables
+
+The following files are required for submission and are included in the `deliverables/` folder:
+
+| File | Description |
+|------|-------------|
+| [Cricsheet Match Data Analysis.pptx](./deliverables/Cricsheet%20Match%20Data%20Analysis.pptx) | Final project presentation containing overview, methodology, EDA visuals, and key insights |
+| [cricsheet.pbix](./deliverables/cricsheet.pbix) | Power BI dashboard showing interactive visual analysis of the cricket dataset |
+
+
 
 ---
 👤 Jaisrinivas P K
