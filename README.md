@@ -122,15 +122,18 @@ webdriver_manager
 
 🧰 Tech Stack
 ---
-- Web Scraping: Selenium, webdriver_manager
+- **Web Scraping**: Selenium, webdriver_manager
 
-- Data Wrangling: Pandas
+- **Data Wrangling**: Pandas
 
-- Database: SQLite, SQL queries
+- **Database**: SQLite, SQL queries
 
-- Visualization: Matplotlib, Seaborn, Plotly
+- **Visualization**: Matplotlib, Seaborn, Plotly
 
-- Automation: Python scripting
+- **Dashboards**: Power BI
+ 
+- **Automation**: Python scripting
+ 
 
 🧠 Outcome
 ---
