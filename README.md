@@ -45,6 +45,28 @@ Downloads JSON data for all formats from Cricsheet:
 ```bash
 python scraping/cricsheet_scraper.py
 ```
+
+ ---
+🧑‍💻 Special Setup for GitHub Codespaces
+If you are running this project in GitHub Codespaces, follow these extra steps to install Google Chrome for Selenium:
+
+🧩 Why?
+GitHub Codespaces does not include Google Chrome by default. Selenium needs Chrome to run the scraper (even in headless mode).
+
+✅ One-Time Setup in Terminal
+Copy and paste the following commands into the Codespaces terminal:
+
+```bash
+sudo apt update
+sudo apt install -y wget curl gnupg unzip
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
+```
+✅ Then run the scraper like normal:
+```bash
+python scraping/cricsheet_scraper.py
+```
+ ---
 2️⃣ Convert JSONs to CSV
 Processes all downloaded JSONs and stores as matches.csv and deliveries.csv:
 
