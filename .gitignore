@@ -1,0 +1,22 @@
+# 🔹 Ignore compiled Python files and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 🔹 Ignore data and output files
+data/
+eda/plots/
+
+# 🔹 Ignore database and logs
+*.db
+*.sqlite
+*.log
+
+# 🔹 Ignore executables and system files
+chromedriver.exe
+*.exe
+.DS_Store
+
+# 🔹 Ignore Power BI or presentation files
+*.pbix
+*.pptx
